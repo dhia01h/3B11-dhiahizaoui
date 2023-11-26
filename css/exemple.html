@@ -24,20 +24,47 @@
     <section id="pageContent">
         <h3>Inscription</h3>
         <form id="form" action="#" method="post">
-            <table>
-                <tr>
-                    <td><label for="fname">First Name <span>*</span></label></td>
-                    <td><input type="text" id="fname" name="fname" minlength="3" required /></td>
-                </tr>
-                <!-- Les autres champs du formulaire ici -->
-                <tr>
-                    <td></td>
-                    <td>
-                        <button type="submit" class="btn">Submit</button>
-                        <button type="reset" class="btn">Reset</button>
-                    </td>
-                </tr>
-            </table>
+          
+<table>
+<tr>
+<td><label>First name:</label></td>
+<td><input type="text" required placeholder="dhia" minlength=3></td><br>
+</tr>
+<tr>
+<td><label>Last name:</label></td>
+<td><input type="text" placeholder="hizaoui" minlength=3></td><br>
+</tr>
+<tr>
+<td><label>Adress:</label></td>
+<td> <textarea placeholder="esprit  " ></textarea></td><br>
+</tr>
+<tr>
+<td><label>Phone number:</label></td>
+<td> <input type="number" required pattern="[1-9].{8}" placeholder="9345644" ></td><br>
+</tr>
+<tr>
+<td><label>Date of birth:</label></td>
+<td> <input type="date" ></td><br>
+</tr>
+<tr>
+<td><label>Email:</label></td>
+<td><input type="email" required placeholder="nhjljghkhgghgig@gmail.com" ></td><br>
+</tr>
+<tr>
+<td><label>Password:</label></td>
+<td> <input type="password" required  placeholder="AzertY123&" pattern=".{8}"></td><br>
+</tr>
+<tr>
+<td><label>Comfirm password:</label></td>
+<td> <input type="password" required  placeholder="AzertY123&" pattern=".{8}"></td><br>
+</tr>
+<td>
+<input type="submit" value="confirmer" class="btn"></td>
+<td><input type="reset" value="reset" class="btn"></td>
+<hr>
+</table>
+
+
         </form>
     </section>
 

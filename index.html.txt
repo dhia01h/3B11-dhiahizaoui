@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head><title>page 1</title></head>
+
+<body>
+    <h1>cv profissionelle</h1>
+<ul>
+  <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page1.html">contact</a></td></li>
+   <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page2.html">objectif professionnel et etude </a></td></li>
+   <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page3.html">Compétences</a></td></li>
+  <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page4.html">Réalisations/Centres d'intérêt</a></td></li>
+
+    
+</ul>
+<td><img src="cvvvv.jpeg" alt="image" height="200" >  </td>
+    <table>
+        <tr> <td rowspan="5">   <img src="cvimage.jpg"alt="image" height="250">  </td>
+            <td colspane="2"><h1> Rayen Jlassi</h1> </td>
+        </tr>
+        
+        <tr>
+            
+            <td> <img src="communication.png"alt="image" height="20"> </td>
+            <td><a href ="mailto:Rayen.jlassi@gmail.com">Rayen.jlassi@esprit.tn</a>  </td>
+        </tr>
+        <tr>
+            
+            <td><img src="phone-call.png " alt="image" height="20" >  </td>
+            <td> <p>+216 29 227 604 </p> </td>
+        </tr>
+        <tr>
+            
+            <td><img src="home.png"alt="image" height="20">  </td>
+            <td> <p> nouvelle madina 2063 ben arouse</p> </td>
+        </tr>
+        <tr>
+            <td><img src="calendar.png" alt="image" height="20">  </td>
+            <td> <p> 12/7/2002</p> </td>
+        </tr>
+        
+        </table>
+
+       
+
+<form action="/votre-action-de-traitement" method="post">
+    <label for="email">E-mail :</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+
+    <label for="message">Votre message :</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <br>
+
+    <input type="submit" value="Envoyer">
+</form>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
