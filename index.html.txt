@@ -6,7 +6,7 @@
 <body>
     <h1>cv profissionelle</h1>
 <ul>
-  <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page1.html">contact</a></td></li>
+  <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/index.html">contact</a></td></li>
    <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page2.html">objectif professionnel et etude </a></td></li>
    <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page3.html">Compétences</a></td></li>
   <li> <td><a href ="file:///C:/Users/jlassi/Desktop/web/page4.html">Réalisations/Centres d'intérêt</a></td></li>
