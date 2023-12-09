@@ -23,7 +23,7 @@
             list-style-type: none;
             padding: 0;
             margin: 10px 0;
-            background-color: #555;
+            background-color: #555; /* Nouvelle couleur de fond pour la barre de navigation */
             overflow: hidden;
         }
 
@@ -47,30 +47,23 @@
         img {
             max-width: 100%;
             height: auto;
-            display: block;
-            margin: 20px auto;
+            margin-top: 10px;
         }
 
         h3 {
-            color: #007bff;
-            margin-top: 20px;
-            margin-bottom: 10px; 
+            color: #007bff; /* Nouvelle couleur pour les titres h3 */
+            margin-top: 10px; /* Espacement supplémentaire en haut */
         }
 
         ul ul {
             list-style-type: none;
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-
-        ul ul li {
-            margin-bottom: 10px;
+            padding-left: 20px; /* Espacement pour les listes imbriquées */
         }
     </style>
 </head>
 
 <body>
-    <h1><u>*CV professionnelle*</u></h1>
+    <h1>CV professionnelle</h1>
 
     <ul>
         <li><a href="index.html">Contact</a></li>
@@ -83,45 +76,41 @@
 
     <ul>
         <li>
-            <h3><a><u>Langage de programmation</u></a></h3>
+            <h3>Langage de programmation</h3>
             <ul>
-                <li><a>Python</a></li>
-                <li><a>C</a></li>
+                <li>Python</li>
+                <li>C</li>
             </ul>
         </li>
         <li>
-            <h3><a><u>Développement web</u></a></h3>
+            <h3>Développement web</h3>
             <ul>
-                <li><a>HTML</a></li>
+                <li>HTML</li>
             </ul>
         </li>
         <li>
-            <h3><a><u>Bases de données</u></a></h3>
+            <h3>Bases de données</h3>
             <ul>
-                <li><a>SQL</a></li>
-                <li><a>SQLite</a></li>
+                <li>SQL</li>
+                <li>SQLite</li>
             </ul>
         </li>
         <li>
-            <h3><a><u>Architecture Système</u></a></h3>
+            <h3>Architecture Système</h3>
             <ul>
-                <li><a>Microcontrôleur</a></li>
+                <li>Microcontrôleur</li>
             </ul>
         </li>
         <li>
-            <h3><a><u>Langues</u></a></h3>
+            <h3>Langues</h3>
             <ul>
-                <li><a>Français</a></li>
-                <li><a>Anglais</a></li>
-                <li><a>Arabe</a></li>
+                <li>Français</li>
+                <li>Anglais</li>
+                <li>Arabe</li>
             </ul>
         </li>
     </ul>
 </body>
 
 </html>
-
-
-
-
 

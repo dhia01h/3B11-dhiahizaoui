@@ -11,25 +11,53 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #f4f4f4;
-        }
-
-        h1 {
             color: #333;
         }
 
-        ul, ol {
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        ul {
             list-style-type: none;
             padding: 0;
             margin: 10px 0;
+            background-color: #555;
+            overflow: hidden;
         }
 
         li {
-            margin-bottom: 10px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
         }
 
         img {
             max-width: 100%;
             height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        ol {
+            padding: 0;
+            margin: 0;
+        }
+
+        h2 {
+            color: #007bff;
         }
 
         p {
@@ -39,20 +67,20 @@
 </head>
 
 <body>
-    <h1>CV professionnelle</h1>
+    <h1><u>*CV professionnelle*</u></h1>
 
     <ul>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/index.html">Contact</a></li>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/page2.html">Objectif professionnel et études</a></li>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/page3.html">Compétences</a></li>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/page4.html">Réalisations/Centres d'intérêt</a></li>
+        <li><a href="index.html">Contact</a></li>
+        <li><a href="page2.html">Objectif professionnel et études</a></li>
+        <li><a href="page3.html">Compétences</a></li>
+        <li><a href="page4.html">Réalisations/Centres d'intérêt</a></li>
     </ul>
 
     <img src="C:/Users/ASUS/Downloads/cv.png" alt="image" height="200">
 
     <ol>
         <li>
-            <h2>Objectif professionnel</h2>
+            <h2><u>Objectif professionnel</u></h2>
             <p>
                 Ingénieur en informatique passionné par l'innovation technologique et doté d'une solide expérience dans le développement logiciel,
                 l'architecture système et la gestion de projets. Expert en langages de programmation variés,
@@ -63,16 +91,15 @@
         </li>
 
         <li>
-            <h2>Études</h2>
+            <h2><u>Études</u></h2>
             <ul>
-                <li>Baccalauréat en lycée éthique section science expérimentale, mention bien, année 2021 </li>
-                <li>Cycle préparatoire section PC, admis au concours national, année 2023</li>
-                <li>Cycle d'ingénieur à Esprit en génie informatique</li>
-                <li>Cours axés sur la programmation, les bases de données, et la conception logicielle</li>
+                <li><a>Baccalauréat en lycée éthique section science expérimentale, mention bien, année 2021 </a></li>
+                <li><a>Cycle préparatoire section PC, admis au concours national, année 2023</a></li>
+                <li><a>Cycle d'ingénieur à Esprit en génie informatique</a></li>
+                <li><a>Cours axés sur la programmation, les bases de données, et la conception logicielle</a></li>
             </ul>
         </li>
     </ol>
 </body>
 
 </html>
-

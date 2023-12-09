@@ -11,26 +11,44 @@
             font-family: Arial, sans-serif;
             margin: 20px;
             background-color: #f4f4f4;
+            color: #333;
         }
 
         h1 {
-            color: #333;
+            color: #007bff;
+			text-align: center;
         }
 
         ul {
             list-style-type: none;
             padding: 0;
             margin: 10px 0;
+            background-color: #555;
+            overflow: hidden;
         }
 
         li {
+            float: left;
             margin-bottom: 5px;
+        }
+
+        li a {
+            display: block;
+            color: white;
+           
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
         }
 
         img {
             max-width: 100%;
             height: auto;
-            margin-top: 10px;
+            display: block;
+            margin: 10px auto;
         }
 
         ol {
@@ -38,46 +56,57 @@
         }
 
         ol h1 {
-            color: #555;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        ul ul {
+            list-style-type: none;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul ul li {
+            margin-bottom: 10px; 
         }
     </style>
 </head>
 
 <body>
-    <h1>CV professionnelle</h1>
+    <h1><u>*CV professionnelle*</u></h1>
 
     <ul>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/index.html">Contact</a></li>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/page2.html">Objectif professionnel et études</a></li>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/page3.html">Compétences</a></li>
-        <li><a href="file:///C:/Users/ASUS/Desktop/Nouveau%20dossier/page4.html">Réalisations/Centres d'intérêt</a></li>
+        <li><a href="index.html">Contact</a></li>
+        <li><a href="page2.html">Objectif professionnel et études</a></li>
+        <li><a href="page3.html">Compétences</a></li>
+        <li><a href="page4.html">Réalisations/Centres d'intérêt</a></li>
     </ul>
 
     <img src="C:/Users/ASUS/Downloads/cv.png" alt="image" height="100">
 
     <ol>
         <li>
-            <h1>Réalisations</h1>
+            <h1><u>Réalisations</u></h1>
             <ul>
-                <li>Optimisation des Performances</li>
-                <li>Projet de Sécurité Informatique</li>
-                <li>Récompense pour l'Innovation</li>
-                <li>Formation et Encadrement</li>
+                <li><a>Optimisation des Performances</a></li>
+				
+                <li><a>Projet de Sécurité Informatique</a></li>
+                <li><a>Récompense pour l'Innovation</a></li>
+                <li><a>Formation et Encadrement</a></li>
             </ul>
         </li>
 
         <li>
-            <h1>Centres d'intérêt</h1>
+            <h1><u>Centres d'intérêt</u></h1>
             <ul>
-                <li>Technologie émergente</li>
-                <li>Projets personnels</li>
-                <li>Sports d'équipe</li>
-                <li>Bénévolat en informatique</li>
-                <li>Musique et Arts</li>
+                <li><a>Technologie émergente</a></li>
+                <li><a>Projets personnels</a></li>
+                <li><a>Sports d'équipe</a></li>
+                <li><a>Bénévolat en informatique</a></li>
+                <li><a>Musique et Arts</a></li>
             </ul>
         </li>
     </ol>
 </body>
 
 </html>
-
