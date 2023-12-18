@@ -63,6 +63,10 @@
         p {
             text-align: justify;
         }
+
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 
@@ -90,16 +94,31 @@
             </p>
         </li>
 
-        <li>
+        <li id="educationSection" class="hidden">
             <h2><u>Études</u></h2>
             <ul>
-                <li><a>Baccalauréat en lycée éthique section science expérimentale, mention bien, année 2021 </a></li>
-                <li><a>Cycle préparatoire section PC, admis au concours national, année 2023</a></li>
-                <li><a>Cycle d'ingénieur à Esprit en génie informatique</a></li>
-                <li><a>Cours axés sur la programmation, les bases de données, et la conception logicielle</a></li>
+                <li>Baccalauréat en lycée éthique, section science expérimentale, mention bien, année 2021 </li>
+                <li>Cycle préparatoire section PC, admis au concours national, année 2023</li>
+                <li>Cycle d'ingénieur à Esprit en génie informatique</li>
+                <li>Cours axés sur la programmation, les bases de données, et la conception logicielle</li>
             </ul>
         </li>
     </ol>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            var educationSection = document.getElementById('educationSection');
+            var toggleBtn = document.createElement('button');
+            toggleBtn.innerHTML = 'Basculer Études';
+            toggleBtn.classList.add('toggle-btn');
+            toggleBtn.onclick = function () {
+                educationSection.classList.toggle('hidden');
+            };
+
+            document.body.appendChild(toggleBtn);
+        });
+    </script>
 </body>
 
 </html>

@@ -141,6 +141,28 @@
 
         <input type="submit" value="Envoyer">
     </form>
+	 <script>
+        function validateForm() {
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Simple email validation
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Veuillez entrer une adresse e-mail valide.');
+                return false;
+            }
+
+            // Simple message validation (you can add more complex validation if needed)
+            if (message.trim() === '') {
+                alert('Veuillez entrer un message.');
+                return false;
+            }
+
+            // If all validations pass, the form will be submitted
+            return true;
+        }
+    </script>
 </body>
 
 </html>
